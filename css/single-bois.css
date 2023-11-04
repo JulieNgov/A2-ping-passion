@@ -1,0 +1,66 @@
+.bois-page-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+}
+
+.bois-page-img img {
+    padding-right: 20px;
+
+}
+
+.info-bois h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.info-bois p {
+    margin: 0;
+    font-style: italic;
+    color: rgb(148, 147, 147);
+}
+
+.bois-btn {
+    margin-top: 30px;
+}
+
+.bois-btn .bois-buy {
+    padding: 15px 35px;
+    background-color: rgb(57, 98, 200);
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.bois-btn button {
+    padding: 15px 35px;
+    background-color: white;
+    border-color: rgb(57, 98, 200);
+    color: rgb(57, 98, 200);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.bois-btn .bois-buy:hover {
+    background-color: rgb(69, 116, 235);
+    color: white;
+}
+
+.bois-btn button:hover {
+    color: rgb(69, 116, 235);
+    border-color: rgb(69, 116, 235);
+}
+
+.bois-page-description p {
+    margin-top: 80px;
+    text-align: center;
+    margin-inline: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .bois-page-card {
+        grid-template-columns: 1fr;
+    }
+}

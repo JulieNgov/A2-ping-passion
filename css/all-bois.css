@@ -1,0 +1,101 @@
+.site-main-bois {
+    margin: 20px;
+}
+
+.post-type-archive-bois {
+    background-color: rgb(243, 243, 243);
+    color: rgb(57, 98, 200);
+}
+
+.post-type-archive-bois .page-header h1 {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(200, 198, 198);
+    font-size: 28px;
+}
+
+.post-type-archive-bois .page-header h2 {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.bois-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.bois-card {
+    position: relative;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bois-card p {
+    font-size: 12px;
+}
+
+.bois-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.bois-card-content p {
+    color: black;
+}
+
+.bois-card-content h2 {
+    margin-top: 10px;
+}
+
+.bois-card a {
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 15px 20%;
+    border-radius: 10px;
+    background-color: rgb(57, 98, 200);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.bois-link {
+    display: flex;
+    justify-content: center;
+}
+
+.bois-card:hover a {
+    display: block;
+}
+
+.bois-card a:hover {
+    background-color: rgb(65, 111, 225);
+    color: white;
+}
+
+.bois-card a:active {
+    background-color: rgb(65, 111, 225);
+    color: white;
+}
+
+.bois-card a:visited {
+    background-color: rgb(65, 111, 225);
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .bois-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bois-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,145 @@
+.site-branding {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(57, 98, 200);
+	color: rgb(255, 255, 255);
+	padding-inline: 20px;
+}
+
+.site-header img {
+	width: 150px;
+	flex-shrink: 0;
+}
+
+.header-menu {
+	display: flex;
+	gap: 40px;
+	list-style: none;
+}
+
+.sub-menu {
+	background-color: rgb(57, 98, 200);
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.sub-menu li a {
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+}
+
+.site-header a:visited {
+	color: white;
+}
+
+.site-header a:hover {
+	color: white;
+}
+
+.site-header a:active {
+	color: white;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-right button {
+	padding: 10px;
+	height: 50%;
+	margin-right: 50px;
+	background-color: rgb(57, 98, 200);
+	border: 2px solid white;
+	color: white;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.nav-right button:hover {
+	background-color: white;
+	color: rgb(57, 98, 200);
+	border-color: white;
+}
+
+.nav-right h2 {
+	border-left: 1px solid rgb(205, 202, 202);
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.header-menu {
+	display: flex;
+	gap: 40px;
+	list-style: none;
+}
+
+.sub-menu {
+	background-color: rgb(57, 98, 200);
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.sub-menu li a {
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+}
+
+.site-header a:visited {
+	color: white;
+}
+
+.site-header a:hover {
+	color: white;
+}
+
+.site-header a:active {
+	color: white;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-right button {
+	padding: 10px;
+	height: 50%;
+	margin-right: 50px;
+	background-color: rgb(57, 98, 200);
+	border: 2px solid white;
+	color: white;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.nav-right button:hover {
+	background-color: white;
+	color: rgb(57, 98, 200);
+	border-color: white;
+}
+
+.nav-right h2 {
+	border-left: 1px solid rgb(205, 202, 202);
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .site-branding {
+        flex-direction: column;
+		padding-top: 10px;
+    }
+
+    .header-menu {
+        padding-block: 20px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,77 @@
+.post-type-archive-revetement .page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pingpong.jpg");
+    padding-block: 40px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.post-type-archive-revetement {
+    background-color: rgb(243, 243, 243);
+}
+
+.rev-filter {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: rgb(57, 98, 200);
+    margin: 50px 0;
+}
+
+.rev-filter li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rev-card-wrap {
+    margin-inline: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.rev-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.rev-card-content h3 a {
+    text-decoration: none;
+    color: rgb(57, 98, 200);
+}
+
+.rev-card-content h3 a:hover {
+    text-decoration: none;
+    color: rgb(69, 116, 235);
+}
+
+.rev-card-content h3 a:active {
+    text-decoration: none;
+    color: rgb(69, 116, 235);
+}
+
+.rev-card-content h3 a:active {
+    text-decoration: none;
+    color: rgb(69, 116, 235);
+}
+
+@media screen and (max-width: 800px) {
+    .rev-card-wrap {
+        margin-inline: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rev-card-wrap {
+        grid-template-columns: 1fr;
+    }
+}

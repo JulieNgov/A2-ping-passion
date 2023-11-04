@@ -1,0 +1,50 @@
+.rev-page-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+}
+
+.rev-page-img {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.rev-content h2 {
+    color: rgb(57, 98, 200);
+}
+
+.rev-btn button {
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(57, 98, 200);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.rev-btn button:hover {
+    background-color: rgb(69, 116, 235);
+}
+
+.rev-desc {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    border-bottom: 1px solid rgb(195, 193, 193);
+}
+
+.rev-desc p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .rev-page-card {
+        grid-template-columns: 1fr;
+    }
+
+    .rev-content h2 {
+        text-align: center;
+    }
+}
